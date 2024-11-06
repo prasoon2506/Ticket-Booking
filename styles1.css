@@ -1,0 +1,106 @@
+/* General reset */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+  }
+  
+  header {
+    background:  #2476da;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .nav__logo {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  
+  .booking__section {
+    position: relative;
+    height: 100vh;
+    background: url('assets/bg1.jpg') center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    padding: 2em;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .section__header {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .booking-form {
+    display: grid;
+    gap: 1em;
+  }
+  
+  .form-group label {
+    font-size: 1em;
+    color: #fff;
+  }
+  
+  .form-group select,
+  .form-group input {
+    width: 100%;
+    padding: 0.75em;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .btn {
+    background-color: #00bfa5;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #00897b;
+  }
+  
+  /* Footer styles */
+  footer {
+    background: #222;
+    padding: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .footer__col h4 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .footer__col p {
+    font-size: 0.9em;
+  }
+  
