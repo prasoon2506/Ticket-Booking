@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles3.css">
-     <link rel="icon" href="https://png.pngtree.com/png-vector/20230527/ourmid/pngtree-s-logo-icon-vector-png-image_7111071.png"/>
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20230527/ourmid/pngtree-s-logo-icon-vector-png-image_7111071.png"/>
 </head>
 
 <body>
@@ -17,72 +17,80 @@
           <i class="fas fa-arrow-left"></i>  
         </a>
         <h1 class="heading">Boarding Pass</h1>
-      </header>
+    </header>
+    
     <div class="boarding-pass">
         <div class="card card-top">
             <div class="source">
-                <div class="code">IXM</div>
-                <div class="city">Madhurai</div>
+                <div class="code">N/A</div>
+                <div class="city content-from-city">Loading...</div>
             </div>
             <div class="flight-median">
                 <i class="ri-flight-takeoff-line"></i>
             </div>
             <div class="destination">
-                <div class="code">DXB</div>
-                <div class="city">Dubai</div>
+                <div class="code">N/A</div>
+                <div class="city content-to-city">Loading...</div>
             </div>
         </div>
+        
         <div class="median"></div>
+        
         <div class="card card-bottom">
             <div class="card-row">
                 <div class="card-item">
                     <span class="label">Passenger</span>
-                    <p class="content">Prasoon</p>
+                    <p class="content content-passenger">Loading...</p>
                 </div>
                 <div class="card-item">
                     <span class="label">Date</span>
-                    <p class="content">13/11/2024</p>
+                    <p class="content content-date">Loading...</p>
                 </div>
             </div>
+            
             <div class="card-row">
                 <div class="card-item">
                     <span class="label">Flight No</span>
-                    <p class="content">SG720</p>
+                    <p class="content content-flight">SG720</p>
                 </div>
                 <div class="card-item">
                     <span class="label">Gate</span>
-                    <p class="content">B2</p>
+                    <p class="content content-gate">B2</p>
                 </div>
                 <div class="card-item">
                     <span class="label">Seat</span>
-                    <p class="content">4D</p>
+                    <p class="content content-seat">Loading...</p>
                 </div>
                 <div class="card-item">
                     <span class="label">Class</span>
-                    <p class="content">Business</p>
+                    <p class="content content-class">Loading...</p>
                 </div>
             </div>
+            
             <div class="card-row">
                 <div class="card-item">
                     <span class="label">Boarding Time</span>
-                    <p class="content">11:00 IST</p>
+                    <p class="content content-boarding-time">Loading...</p>
                 </div>
                 <div class="card-item">
                     <span class="label">Travelling Time</span>
-                    <p class="content">11:30</p>
+                    <p class="content content-travel-time">Loading...</p>
                 </div>
                 <div class="card-item">
                     <span class="label">Arrival Time</span>
-                    <p class="content">14:00 GST</p>
+                    <p class="content content-arrival-time">Loading...</p>
                 </div>
             </div>
+            <div class="scan-id">Generating ID...</div>
         </div>
+        
+        
         <div class="boarding-pass">
             <button class="download-button">Download Ticket</button>
-          </div>
-        
         </div>
-        
+    </div>
+
+    <script src="script3.js"></script>
 </body>
 
 </html>
