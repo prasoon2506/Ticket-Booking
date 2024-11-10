@@ -141,25 +141,34 @@
     background-color: #00897b;
   }
  
-.input-icon-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.input-icon-container i {
-  position: absolute;
-  left: 10px; 
-  color: #666; 
-}
-
-.input-icon-container input {
-  padding-left: 30px; 
-  width: 100%;
-  padding: 0.75em;
-  border-radius: 5px;
-  border: none;
-}
+  .input-icon-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-icon-container i {
+    position: absolute;
+    left: 12px; /* Adjust icon's left positioning */
+    color: #666;
+    pointer-events: none; /* Ensures the icon doesn't block input field */
+  }
+  
+  .input-icon-container input {
+    padding-left: 40px; /* Provide space for the icon */
+    width: 100%;
+    padding: 0.75em;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent; /* Ensure the background doesn't overlap with text */
+    color: #fff; /* Text color */
+  }
+  
+  /* Add a focus effect to show the icon even when typing */
+  .input-icon-container input:focus {
+    padding-left: 40px; /* Maintain space for the icon when focused */
+  }
+  
 .booking__section {
   animation: fadeIn 1.2s ease-in;
 }
