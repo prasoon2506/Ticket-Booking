@@ -7,7 +7,7 @@
   <title>Book Ticket</title>
   <link rel="stylesheet" href="styles1.css">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
-   <link rel="icon" href="https://png.pngtree.com/png-vector/20230527/ourmid/pngtree-s-logo-icon-vector-png-image_7111071.png"/>
+  <link rel="icon" href="https://png.pngtree.com/png-vector/20230527/ourmid/pngtree-s-logo-icon-vector-png-image_7111071.png"/>
 </head>
 
 <body>
@@ -25,39 +25,24 @@
       <form action="#" class="booking-form">
         <div id="id1">
           <div class="form-group fr1">
-            <label for="source" id="fn">First Name</label>
-            <input type="text" placeholder="First Name" required>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" placeholder="First Name" required>
           </div>
 
           <div class="form-group fr1">
-            <label for="destination">Last Name</label>
-            <input type="text" placeholder="Last Name" required>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" placeholder="Last Name" required>
           </div>
         </div>
         <div id="id1">
           <div class="form-group fr1">
             <label for="source">From</label>
-            <select id="source" name="source" required>
-              <option value="paris">Paris</option>
-              <option value="India">Agra</option>
-              <option value="India">Jaipur</option>
-              <option value="India">Maldives</option>
-              <option value="USA">New York</option>
-            </select>
+            <input type="text" id="source" placeholder="Source"required>
           </div>
 
           <div class="form-group fr1">
             <label for="destination">To</label>
-            <select id="destination" name="destination" required>
-              <option value="Bagalkot">Bagalkot</option>
-              <option value="paris">Paris</option>
-              <option value="India">Agra</option>
-              <option value="India">Jaipur</option>
-              <option value="India">Maldives</option>
-              <option value="USA">New York</option>
-
-
-            </select>
+            <input id="destination" placeholder="Destination" required>
           </div>
         </div>
 
@@ -70,10 +55,11 @@
           <label for="class">Class</label>
           <select id="class" name="class" required>
             <option value="Economy">Economy</option>
-            <option value="Busniess">Business</option>
-            <option value="Busniess">First-Class</option>
+            <option value="Business">Business</option>
+            <option value="First-Class">First-Class</option>
           </select>
         </div>
+
         <div id="id2">
           <div class="form-group fr1">
             <label for="age">Age</label>
@@ -87,8 +73,9 @@
             </div>
           </div>
         </div>
+
         <div class="btn-container">
-          <button type="button" class="btn" onclick="window.location.href='index3.html'">Book Flight</button>
+          <button type="submit" class="btn">Book Flight</button>
         </div>
       </form>
     </div>
@@ -109,7 +96,7 @@
     </div>
   </footer>
 
-
+  <script src="main1.js"></script>
 </body>
 
 </html>
